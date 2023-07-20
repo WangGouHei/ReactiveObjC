@@ -9,9 +9,8 @@ let package = Package(
         .target(
             name: "ReactiveObjC",
             dependencies: [],
-            path: "ReactiveObjC",
+            path: "./ReactiveObjC",
             exclude: ["Carthage","Documentation","Instruments"],
-            sources: ["*", "Deprecations+Removals.swift"],
             publicHeadersPath: "include"
         )
     ]
